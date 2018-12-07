@@ -1,0 +1,66 @@
+[
+{
+	nome : "Parque Opa",
+	localizacao : { type : "Point", "coordinates" : [-26.294510, -48.858158]}
+},
+{
+	nome : "Barão Chopp",
+	localizacao : { type : "Point", "coordinates" : [-26.295154, -48.846505]}
+},
+{
+	nome : "Botequim Barão",
+	localizacao : { type : "Point", "coordinates" : [-26.302956, -48.859732]}
+},
+{
+	nome : "Clover Pub",
+	localizacao : { type : "Point", "coordinates" : [-26.301794, -48.854345]}
+},
+{
+	nome : "Bovary Snooker",
+	localizacao : { type : "Point", "coordinates" : [-26.302390, -48.849548]}
+},
+{
+	nome : "Oldenn Acustic Hall",
+	localizacao : { type : "Point", "coordinates" : [-26.303372, -48.847949]}
+},
+{
+	nome : "Didge Steakhouse",
+	localizacao : { type : "Point", "coordinates" : [-26.303693, -48.851036]}
+},
+{
+	nome : "Guacamole Cocina Mexicana",
+	localizacao : { type : "Point", "coordinates" : [-26.305629, -48.853583]}
+},
+{
+	nome : "Let it Be Pub",
+	localizacao : { type : "Point", "coordinates" : [-26.305162, -48.852544]}
+},
+{
+	nome : "Zum Schlauch",
+	localizacao : { type : "Point", "coordinates" : [-26.305339, -48.851966]}
+},
+{
+	nome : "Kodashi Sushi Bar",
+	localizacao : { type : "Point", "coordinates" : [-26.306958, -48.848599]}
+},
+{
+	nome : "Mercado Público",
+	localizacao : { type : "Point", "coordinates" : [-26.305460, -48.840380]}
+},
+{
+	nome : "Bar Pixel",
+	localizacao : { type : "Point", "coordinates" : [-26.307155, -48.841658]}
+},
+{
+	nome : "Biergarten",
+	localizacao : { type : "Point", "coordinates" : [-26.309448, -48.854545]}
+},
+{
+	nome : "Yelo Stage",
+	localizacao : { type : "Point", "coordinates" : [-26.309057, -48.841136]}
+},
+{
+	nome : "Mosteiro Pub",
+	localizacao : { type : "Point", "coordinates" : [-26.294360, -48.850020]}
+}
+]

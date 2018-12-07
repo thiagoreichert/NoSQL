@@ -1,0 +1,46 @@
+﻿Criar um índice para a localização 2D (não considera altura, apenas coordenadas geométricas)
+
+db.noites.createIndex({
+	localizacao : "2dsphere"
+})
+
+---------------------------------------------------------------------------------------------
+Agregar os dados dos restaurantes, ordenando da menor distância para a maior, pela proximidade da coordenada X
+calculando a distância entre os dois pontos como uma esfera, informando a distância entre o ponto pesquisado e os restaurantes
+
+
+db.noites.aggregate([
+{
+	$geoNear : {
+		near : {
+			coordinates: [-26.304331,-48.848721],
+			type : "Point"
+		},
+		distanceField : "distancia.calculada",
+		spherical : true
+	}
+}
+])
+
+---------------------------------------------------------------------------------------------
+Trazendo o mesmo resultado, mas apenas o 3 lugares mais próximos
+
+db.noites.aggregate([
+{
+	$geoNear : {
+		near : {
+			coordinates: [-26.304331,-48.848721],
+			type : "Point"
+		},
+		distanceField : "distancia.calculada",
+		spherical : true,
+		num : 3
+	}
+}
+])
+---------------------------------------------------------------------------------------------
+Limpar a collection noites
+
+db.noites.remove({})
+
+---------------------------------------------------------------------------------------------
